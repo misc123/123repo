@@ -76,8 +76,5 @@ def main_list(params):
         title="日本電影",
         url="plugin://plugin.video.youtube/search/?q=japanese%20movies%20subtitles"+YOUTUBE_CHANNEL_ID5+"/",
         thumbnail="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Japan_film_icon.svg/80px-Japan_film_icon.svg.png",
-        folder=True )			
-		
-
-
+        folder=True )	
 run()
