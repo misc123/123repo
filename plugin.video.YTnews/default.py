@@ -17,15 +17,16 @@ addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
 
-YOUTUBE_CHANNEL_ID1 = "UCmM1s8FehOsXtZFcH5BXoNg"
-YOUTUBE_CHANNEL_ID2 = "UCeqUUXaM75wrK5Aalo6UorQ"
-YOUTUBE_CHANNEL_ID3 = "UC-8CVMKt5Zlju_i07zhkC-Q"
-YOUTUBE_CHANNEL_ID4 = "PLPY0_ooDN1dvClKgo7K1tAS26PeAHmikd"
-YOUTUBE_CHANNEL_ID5 = "UCeFbWIhDj_tjTOTe1P3cVHA"
-YOUTUBE_CHANNEL_ID6 = "UCsTeCS6s9YoNn2kbQVAgDsQ"
-YOUTUBE_CHANNEL_ID7 = "UC4NjmIegGw-HyQCmxwAEZBQ"
-YOUTUBE_CHANNEL_ID8 = "UCgwOhn9ghL2jY5qJEzpzSzw"
-YOUTUBE_CHANNEL_ID9 = "UC5kySUzP0p4Q4Y1rnQLX_bw"
+YOUTUBE_CHANNEL_ID1 = "UC1Sh4WkuFCRM4hyTjaJLrHw"
+YOUTUBE_CHANNEL_ID2 = "kartoroTEL"
+YOUTUBE_CHANNEL_ID3 = "UCeqUUXaM75wrK5Aalo6UorQ"
+YOUTUBE_CHANNEL_ID4 = "UC-8CVMKt5Zlju_i07zhkC-Q"
+YOUTUBE_CHANNEL_ID5 = "PLPY0_ooDN1dvClKgo7K1tAS26PeAHmikd"
+YOUTUBE_CHANNEL_ID6 = "UCeFbWIhDj_tjTOTe1P3cVHA"
+YOUTUBE_CHANNEL_ID7 = "UCsTeCS6s9YoNn2kbQVAgDsQ"
+YOUTUBE_CHANNEL_ID8 = "UC4NjmIegGw-HyQCmxwAEZBQ"
+YOUTUBE_CHANNEL_ID9 = "UCgwOhn9ghL2jY5qJEzpzSzw"
+YOUTUBE_CHANNEL_ID10 = "UC5kySUzP0p4Q4Y1rnQLX_bw"
 
 # Entry point
 def run():
@@ -55,57 +56,64 @@ def main_list(params):
 		
     plugintools.add_item( 
         #action="", 
+        title="ViuTV新聞報導",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID2+"/",
+        thumbnail="https://yt3.ggpht.com/-0lEvcl2d9EQ/AAAAAAAAAAI/AAAAAAAAAAA/SevqkXLhllg/s100-c-k-no-rj-c0xffffff/photo.jpg",
+        folder=True )
+
+    plugintools.add_item( 
+        #action="", 
         title="蘋果動新聞",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID2+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID3+"/",
         thumbnail="https://yt3.ggpht.com/-UnzSE4d_M1s/AAAAAAAAAAI/AAAAAAAAAAA/NeWTKNbP3TY/s240-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="壹週Plus",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID3+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID4+"/",
         thumbnail="https://yt3.ggpht.com/-NfnRCKGfeao/AAAAAAAAAAI/AAAAAAAAAAA/Bp_UFIBmGoA/s240-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="最新蕭析",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID4+"/",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID5+"/",
         thumbnail="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSaLz_W0D6UR_z8HS3vRSYAcFAmyKEIw2RBWkWku6p0YAWUKPHB5EOxXtw",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="E週刊",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID5+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID6+"/",
         thumbnail="https://yt3.ggpht.com/-16m06v5p7I0/AAAAAAAAAAI/AAAAAAAAAAA/GYFZFRdrU88/s240-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="東周網",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID6+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID7+"/",
         thumbnail="https://yt3.ggpht.com/-Ak12dd6RJWY/AAAAAAAAAAI/AAAAAAAAAAA/Ks4e7PCESzs/s240-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="東網電視",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID7+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID8+"/",
         thumbnail="https://yt3.ggpht.com/-RaYcmdVASWQ/AAAAAAAAAAI/AAAAAAAAAAA/fSo0Yjk_GuQ/s240-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="恩雨之聲",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID8+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID9+"/",
         thumbnail="https://yt3.ggpht.com/-g4j3jPE-tcg/AAAAAAAAAAI/AAAAAAAAAAA/-qthveptCm8/s100-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="多倫多 WOWtv",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID9+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID10+"/",
         thumbnail="https://yt3.ggpht.com/-gYZVZ2dGwUk/AAAAAAAAAAI/AAAAAAAAAAA/5rJVdrjlPSE/s176-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
 
