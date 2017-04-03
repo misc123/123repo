@@ -1,2 +1,7 @@
-[B]Version 1.0[/B]
-- Initial version
+2016nov01
+1.0.1 - Add icon and changelog
+
+2016may01
+1.0.0 
+- Intial release
+

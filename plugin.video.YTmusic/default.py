@@ -17,13 +17,13 @@ addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
 
-YOUTUBE_CHANNEL_ID1 = "UCpzgTNTgQsR9YYsyOm3k3KQ"
-YOUTUBE_CHANNEL_ID2 = "UCA-oSxA0_mTwtvEdOX4yMdA"
-YOUTUBE_CHANNEL_ID3 = "danthecomposer"
-YOUTUBE_CHANNEL_ID4 = "UCcZd_G62wtsCXd-b7OhQdlw"
-YOUTUBE_CHANNEL_ID5 = "UCBNkm8o5LiEVLxO8w0p2sfQ"
-YOUTUBE_CHANNEL_ID6 = "MyTwangyGuitar"
-YOUTUBE_CHANNEL_ID7 = "UC1HlihY-iNtOemAlYQq3GXQ"
+ID1 = ""
+ID2 = ""
+ID3 = ""
+ID4 = ""
+ID5 = ""
+ID6 = ""
+ID7 = ""
 
 
 # Entry point
@@ -48,50 +48,50 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Lypur Piano-Theory",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID1+"/",
+        url="plugin://plugin.video.youtube/channel/UCpzgTNTgQsR9YYsyOm3k3KQ"+ID1+"/",
         thumbnail="https://yt3.ggpht.com/-1KyjFXrXOvk/AAAAAAAAAAI/AAAAAAAAAAA/h6vqXQ-DI5s/s100-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="PlayPianoTODAY.com",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID2+"/",
-        thumbnail=icon,
+        url="plugin://plugin.video.youtube/channel/UCA-oSxA0_mTwtvEdOX4yMdA"+ID2+"/",
+        thumbnail="https://www.playpianotoday.com/images/play-piano-today-logo_segno.png",
         folder=True )
 		        
     plugintools.add_item( 
         #action="", 
         title="Learn piano in 10 lessons",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID3+"/",
+        url="plugin://plugin.video.youtube/user/danthecomposer"+ID3+"/",
         thumbnail="https://yt3.ggpht.com/-bS0JaBhU1rw/AAAAAAAAAAI/AAAAAAAAAAA/Y26mWoChix0/s100-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="JustinGuitar Songs",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID4+"/",
+        url="plugin://plugin.video.youtube/channel/UCcZd_G62wtsCXd-b7OhQdlw"+ID4+"/",
         thumbnail="https://yt3.ggpht.com/-J5JjwMbMlbg/AAAAAAAAAAI/AAAAAAAAAAA/79T6mW1XlKU/s100-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="JustinGuitar",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID5+"/",
+        url="plugin://plugin.video.youtube/channel/UCBNkm8o5LiEVLxO8w0p2sfQ"+ID5+"/",
         thumbnail="https://yt3.ggpht.com/-5lZN4lWqIJ4/AAAAAAAAAAI/AAAAAAAAAAA/OTjz43hchDk/s100-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="MyTwangyGuitar",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID6+"/",
+        url="plugin://plugin.video.youtube/user/MyTwangyGuitar"+ID6+"/",
         thumbnail="https://yt3.ggpht.com/-gyXJb8NWsdM/AAAAAAAAAAI/AAAAAAAAAAA/xxpA9QXdgAM/s100-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="The Ukulele Teacher",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID7+"/",
+        url="plugin://plugin.video.youtube/channel/UC1HlihY-iNtOemAlYQq3GXQ"+ID7+"/",
         thumbnail="https://yt3.ggpht.com/-7PP4UcxiVCc/AAAAAAAAAAI/AAAAAAAAAAA/rKKKi4-cc6M/s100-c-k-no-rj-c0xffffff/photo.jpg",
-        folder=True )		
+        folder=True )
 
 run()

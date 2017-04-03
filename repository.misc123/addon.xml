@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.misc123" name="misc123" version="1.0.0" provider-name="misc123">
+<addon id="repository.misc123" name="misc123" version="1.0.1" provider-name="misc123">
 	<extension point="xbmc.addon.repository" name="misc123">
 		<info compressed="false">http://raw.github.com/misc123/123repo/master/addons.xml</info>
 		<checksum>http://raw.github.com/misc123/123repo/master/addons.xml.md5</checksum>

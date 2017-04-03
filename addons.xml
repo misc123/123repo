@@ -1,7 +1,7 @@
 ﻿<addons>
 <addon
-  id="plugin.video.azdrama-forked"
-  version="1.1.5"
+  id="plugin.video.azdrama"
+  version="1.0.29"
   name="azdrama.net"
   provider-name="Dknight (maintained by cthlo)">
   <requires>
@@ -10,6 +10,7 @@
 		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
 		<import addon="script.module.simplejson" />
 		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+    <import addon="script.module.urlresolver" version="2.10.11"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -41,7 +42,7 @@
 
 <addon
   id="plugin.video.drama24h"
-  version="1.0.5.1"
+  version="1.0.9"
   name="drama24h"
   provider-name="Dknight">
   <requires>
@@ -62,14 +63,45 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.2.3" provider-name="bromix">
+<addon id="plugin.video.NewApps"
+	name="新增頻道（測試中）"
+	version="1.1.0"
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">New Apps</summary>
+    <description lang="en">New Apps</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.12" provider-name="jdf76, bromix">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
+        <news>
+[fix/upd] replace custom simple_requests with script.module.requests to resolve ssl and cross-platform issues
+[add] 'Reset access manager' added to Maintenance section, sign out process(available when logged out) to clean up tokens in settings.xml
+[upd] set default for SSL certificate verification to 'true'
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
         <summary lang="en">Plugin for YouTube</summary>
         <description lang="en">YouTube is one of the biggest video-sharing websites of the world.</description>
 		<summary lang="de">Plugin für YouTube</summary>
@@ -90,7 +122,9 @@
         <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
 		<summary lang="el">Πρόσθετο YouTube</summary>
         <description lang="el">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
-		<disclaimer lang="en"></disclaimer>
+        <summary lang="no">Tillegg for YouTube</summary>
+        <description lang="no">YouTube er en av verdens største nettsider for videodeling.</description>
+        <disclaimer lang="en"></disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -103,7 +137,7 @@
 
 <addon id="plugin.video.YTfood"
 	name="飲食頻道"
-	version="1.0.0"
+	version="1.1.1"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -122,9 +156,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.YTkaraoke"
+	name="Karaoke"
+	version="1.1.0."
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">YT Karaoke</summary>
+    <description lang="en">YT Karaoke</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.YTkids"
 	name="Kid's Zone"
-	version="1.0.0"
+	version="1.1.1"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -144,8 +199,8 @@
 </addon>
 
 <addon id="plugin.video.YTmovies"
-	name="粵 韓 日 電影"
-	version="1.0.0"
+	name="中 粵 韓 日 電影/劇集"
+	version="1.1.1"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -166,7 +221,7 @@
 
 <addon id="plugin.video.YTmusic"
 	name="Learn to play Music"
-	version="1.0.0"
+	version="1.1.0"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -187,7 +242,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="新聞 及 週刊"
-	version="1.1.0"
+	version="1.1.2"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -208,7 +263,7 @@
 
 <addon id="plugin.video.YTsports"
 	name="YT Sports"
-	version="1.0.0"
+	version="1.1.0"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -227,7 +282,28 @@
   </extension>
 </addon>
 
-<addon id="repository.misc123" name="misc123" version="1.0.0" provider-name="misc123">
+<addon id="plugin.video.YTtwlive"
+	name="台灣新聞直播"
+	version="1.1.0"
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">台灣新聞直播</summary>
+    <description lang="en">台灣新聞直播</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="repository.misc123" name="misc123" version="1.0.1" provider-name="misc123">
 	<extension point="xbmc.addon.repository" name="misc123">
 		<info compressed="false">http://raw.github.com/misc123/123repo/master/addons.xml</info>
 		<checksum>http://raw.github.com/misc123/123repo/master/addons.xml.md5</checksum>
@@ -239,4 +315,5 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
 </addons>
