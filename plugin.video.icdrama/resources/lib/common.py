@@ -4,8 +4,6 @@ import xbmcgui
 import xbmcaddon
 import xbmcplugin
 import urlresolver
-import urllib2
-from resources.lib import settings
 from contextlib import contextmanager
 from os.path import abspath, dirname
 from urlresolver.hmf import HostedMediaFile
@@ -21,12 +19,6 @@ addon_id = _addon.getAddonInfo('id')
 addon_version = _addon.getAddonInfo('version')
 profile_dir = xbmc.translatePath(_addon.getAddonInfo('profile'))
 get_string = _addon.getLocalizedString
-
-def get_html(url):
-    opener = urllib2.build_opener()
-    opener.addheaders = [('User-Agent', settings.user_agent)]
-    response = opener.open(url)
-    return response.read()
 
 def debug(s):
     xbmc.log(str(s), xbmc.LOGDEBUG)

@@ -161,10 +161,6 @@ msgctxt "#33204"
 msgid "Help improve add-on by providing anonymous data"
 msgstr "提供匿名數據以幫助改善附加元件"
 
-msgctxt "#33205"
-msgid "User Agent string"
-msgstr "用户代理字符串"
-
 # Messages
 ###################################
 

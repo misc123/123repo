@@ -1,5 +1,6 @@
 import re
 import urlresolver
+from urllib2 import urlopen
 from bs4 import BeautifulSoup
 from resources.lib import common
 from resources.lib.resolvers.__ga import GA
@@ -12,7 +13,7 @@ class Icdrama(UrlResolver, GA):
 
     def get_media_url(self, host, media_id):
         try:
-            html = common.get_html(self.get_url(host, media_id))
+            html = urlopen(self.get_url(host, media_id)).read(2*1000*1000)
             soup = BeautifulSoup(html, 'html5lib')
             iframe = soup.find('iframe')
             url = iframe['src']

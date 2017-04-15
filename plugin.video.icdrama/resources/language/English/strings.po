@@ -161,10 +161,6 @@ msgctxt "#33204"
 msgid "Help improve add-on by providing anonymous data"
 msgstr "Help improve add-on by providing anonymous data"
 
-msgctxt "#33205"
-msgid "User Agent string"
-msgstr "User Agent string"
-
 # Messages
 ###################################
 
