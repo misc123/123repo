@@ -1,3 +1,6 @@
+2017apr14
+1.1.1 - Delete addon.xml version no. "."
+
 2017jan28
 1.1.0 - Clean up codings.
 
