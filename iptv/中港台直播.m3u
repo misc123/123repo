@@ -1,0 +1,124 @@
+﻿#EXTM3U
+
+#EXTINF:-1, -----香港直播-----
+#EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/hk-tv/tvb-live.jpg", TVB翡翠台 (信號不穩定)
+http://wshls.acgvideo.com/live/live_19326124_9434677/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://b.tvb.com/tvbi/files/2015/04/ent_news_whitebg_logoguide1.jpg", TVB娛樂新聞台
+http://token.tvb.com/stream/live/enews/hls/mobilehd_enews.smil
+#EXTINF:-1 tvg-logo="http://rthk9.rthk.hk/about/dtt/images/logo_tv31.jpg", 香港電台 31台
+http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8#
+#EXTINF:-1 tvg-logo="http://rthk9.rthk.hk/about/dtt/images/logo_tv32.jpg", 香港電台 32台
+http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/HKTV_logo_full.svg/275px-HKTV_logo_full.svg.png", HKTV (主)
+http://ott-video-lb.hktvmall.com:8080/enc2/index2.m3u8?uid=1&vid=1&d=win8&t=12e9a7f66f3a892b396e94d81206eb6c&mxres=1312&net=wifi&udid=f4128ed9dbf7996480dc22165bf32082&ts=1482654052497&s=3d02f29be999e446e21df9b958635f3d
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/HKTV_logo_full.svg/275px-HKTV_logo_full.svg.png", HKTV (備)
+http://ott-video-lb.hktvmall.com:8080/enc2/index2.m3u8?uid=1&vid=1&d=win8&t=12e9a7f66f3a892b396e94d81206eb6c&mxres=1312&net=wifi&udid=f4128ed9dbf7996480dc22165bf32082&ts=1482653858026&s=be7c078c776d45f5d47613c473ec5e70
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/HKTV_logo_full.svg/275px-HKTV_logo_full.svg.png", HKTV (備2)
+http://ott-video-lb.hktvmall.com:8080/enc2/index2.m3u8?uid=1&vid=1&d=win8&t=12e9a7f66f3a892b396e94d81206eb6c&mxres=1312&net=wifi&udid=f4128ed9dbf7996480dc22165bf32082&ts=1482654272898&s=ad8ac8c3231fff71f65a4e6ad6d82984
+#EXTINF:-1 tvg-logo="http://edge.casbaa.com/wordpress/wp-content/uploads/2016/10/ViuTV_logo.svg_.png", ViuTV (主)
+http://219.76.112.194/session/p8-c68a59a678e1672fe3d3cd31b2f3c/Content/HLS/LIVE/Channel(HLS_CH099)/index.m3u8?token=c103ce37132dbfc87f5530d8f8243069_1488027943_1488013843
+#EXTINF:-1 tvg-logo="http://edge.casbaa.com/wordpress/wp-content/uploads/2016/10/ViuTV_logo.svg_.png", ViuTV (備)
+http://viutv99-i.akamaihd.net/hls/live/265284/live1/master.m3u8
+
+#EXTINF:-1, 有線新聞台HD
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479807601-1479807901-fba01b596e51dc7082757b50f4d4331e-8d412ff0156d692_7f2-03/hd209_h.live/chunklist_w331639739.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線財經資訊台
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479807918-1479808218-9e41f769743053129be0fe3621420352-8d412ffbe493312_825-03/ch8_h.live/chunklist_w902327168.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線直播新聞台
+http://61.10.2.137/liveJoemud_ts/_definst_/4-2a021def-1479808152-1479808452-b129fc30c9584721a3f921fda468fa82-8d4130049cc4d7a_83b-03/Stream1_h/chunklist_w355088309.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線高清娛樂台
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479808516-1479808816-99639c2fa19ba02d4105763af6af358b-8d4130122c24b7a_714-03/hd212_h.live/chunklist_w1786412199.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線球彩台
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479809245-1479809545-44ec12c30b5943aa813403e9ad083358-8d41302d533cb2a_88a-03/ch64_h.live/chunklist_w1898655557.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線HD201
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479807195-1479807495-9e6dabffed40667db0f20c19ecf45106-8d412fe0f261630_67a-03/hd201_h.live/chunklist_w386011701.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線HD202
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479808836-1479809136-9ba719f8a20a5c2db06f427f3d4544ce-8d41301e1a4911a_5ec-03/hd202_h.live/chunklist_w303611369.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線HD203
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479809025-1479809325-968fed7f8a09180c0d54059d8afd8438-8d41302526d0e86_80c-03/hd203_h.live/chunklist_w13875024.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線18台
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479809403-1479809703-4a485eef3a5743dab91e103ec2265bfb-8d4130333bb4786_778-03/ch18_h.live/chunklist_w1965176326.m3u8?uid=8169adc297a66a924239d20609ba947f
+#EXTINF:-1, 有線Sports.1
+http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479809840-1479810140-6a3b7e91b7abb4071fdb786392aab011-8d41304380e0a66_766-03/ch164_h.live/chunklist_w2024052072.m3u8?uid=8169adc297a66a924239d20609ba947f
+
+#EXTINF:-1, -----澳門直播-----
+#EXTINF:-1, 澳門Macau
+http://live4.tdm.com.mo/ch3/_definst_//ch3.live/playlist.m3u8
+#EXTINF:-1, 澳視澳門
+http://live4.tdm.com.mo:80/ch1/_definst_//ch1.live/playlist.m3u8
+#EXTINF:-1, 澳門蓮花
+http://live-hls.lotustv.duolaibo.cn/lotustv/5562e9e4d409d24c9600075c.m3u8
+
+#EXTINF:-1, -----台灣直播-----
+#EXTINF:-1,TVBS新聞台
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop2/cht/hamitv-live41/hls-ae-tv/index.m3u8?url_type=token&token=t_aLzwnog7iWr0FU_0qpkw&expires=1491862513&content_id=1560&product
+#EXTINF:-1,TVBS新聞台HD
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop2/cht/hamitv-live40/hls-ae-tv/index.m3u8?url_type=token&token=FYvZqq02PbRsjrSFs0KVvA&expires=1491862565&content_id=1561&product
+#EXTINF:-1,TVBS歡樂台
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop2/cht/hamitv-live42/hls-ae-tv/index.m3u8?url_type=token&token=jIcEg7WoLeCYYaUdVdsrbg&expires=1491862620&content_id=1559&product
+#EXTINF:-1,三立台灣台
+http://bcoveliveios-i.akamaihd.net/hls/live/226708/4338955585001/master.m3u8
+#EXTINF:-1,三立都會台
+http://bcoveliveios-i.akamaihd.net/hls/live/226707/4338955585001/master.m3u8
+#EXTINF:-1,日本購物
+http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
+#EXTINF:-1,台視財經
+http://210.201.54.102/glive/ttvfin/chunklist_w206692109.m3u8
+#EXTINF:-1,台視綜合
+http://210.201.54.100/glive2/tcch10/chunklist_w351122912.m3u8
+#EXTINF:-1,民視旅遊
+http://210.201.54.102/glive/ftvtravel/chunklist_w899226902.m3u8
+#EXTINF:-1,民視新聞
+https://mozai.4gtv.tv/m3u8/embed/litv-ftv13/master.m3u8?token=l7sx4br1bzDJwB9vzH6UKQ&expires=1486819737&refer
+#EXTINF:-1,民視綜藝
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop1/cht/hamitv-live31/hls-ae-tv/index.m3u8?token=sOv4sE37afg6bKYFb4t8Mg&expires=1491873130
+#EXTINF:-1,民視戲劇
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop1/cht/hamitv-live32/hls-ae-tv/index.m3u8?token=gcVTxAVGbodNz2EAvSnMHg&expires=1491873180
+#EXTINF:-1,年代新聞
+http://208.75.225.26/live/ERATVHD/index.m3u8
+#EXTINF:-1,東森幼幼
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop2/cht/hamitv-live37/hls-ae-tv/index.m3u8?token=HBSQa7w3dArrBTQ8UGQL9w&expires=1491873752
+#EXTINF:-1,東森新聞
+http://220.228.49.16/live/fet003/index.m3u8
+#EXTINF:-1,非凡商業台
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop1/cht/hamitv-live013/hls-ae-tv/index.m3u8?token=1Y1Pv2vHCTcuRKv8tFfqbA&expires=1491874116
+#EXTINF:-1,非凡新聞
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop1/cht/hamitv-live012/hls-ae-tv/index.m3u8?token=YhmWoBKaxKVUQygLtmKtUA&expires=1491873978
+#EXTINF:-1,原住民電視
+http://waaarplive03-lh.akamaihd.net/i/titv_1@191631/master.m3u8
+#EXTINF:-1,國家地理
+http://chthamitv-hichannel.cdn.hinet.net/out/u/live/gop2/cht/hamitv-live66/hls-ae-tv/index.m3u8?token=xITkPwWigVRpSba9XIE0Kg&expires=1491873599
+#EXTINF:-1,壹新聞
+http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/playlist_w.m3u8
+#EXTINF:-1,緯來育樂
+rtmp://149.3.141.210/sat/tv702
+#EXTINF:-1,緯來體育
+rtmp://149.3.141.210/sat/tv722
+
+#EXTINF:-1, -----中國直播-----
+#EXTINF:-1, 北京衛視HD
+http://202.195.240.8/hls/btv1hd.m3u8
+#EXTINF:-1, 湖南衛視HD
+http://202.195.240.8/hls/hunanhd.m3u8
+#EXTINF:-1, 浙江衛視HD
+http://202.195.240.8/hls/zjhd.m3u8
+#EXTINF:-1, 江蘇衛視HD
+http://202.195.240.8/hls/jshd.m3u8
+#EXTINF:-1, 東方衛視HD
+http://202.195.240.8/hls/dfhd.m3u8
+#EXTINF:-1, 安徽衛視HD
+http://202.195.240.8/hls/ahhd.m3u8
+#EXTINF:-1, 黑龍江衛視HD
+http://202.195.240.8/hls/hljhd.m3u8
+#EXTINF:-1, 遼寧衛視HD
+http://202.195.240.8/hls/lnhd.m3u8
+#EXTINF:-1, 深圳衛視HD
+http://202.195.240.8/hls/szhd.m3u8
+#EXTINF:-1, 廣東衛視HD
+http://202.195.240.8/hls/gdhd.m3u8
+#EXTINF:-1, 天津衛視HD
+http://202.195.240.8/hls/tjhd.m3u8
+#EXTINF:-1, 湖北衛視HD
+http://202.195.240.8/hls/hbhd.m3u8
+#EXTINF:-1, 山東衛視HD
+http://202.195.240.8/hls/sdhd.m3u8

@@ -1,0 +1,325 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-logo="http://st1.bgr.in/wp-content/uploads/2016/01/leeco-logo.jpg" group-title="樂視"
+
+#EXTINF:-1, 樂視電影4K - 1 (粤語/廣東話|普通話/國語 - 繁/簡[殘]中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_4Kmovie_8000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影4K - 2 (粤語/廣東話|普通話/國語 - 繁/簡[殘]中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_4Kmovie_8000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視電影 - 港產喜劇 (粤語/廣東話 - 繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_Hkcomedies_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視電影 - 古裝港產 (粤語/廣東話 - 繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_HKperiodMovies_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視紀錄片4K (多種語言 - 繁/簡[殘]中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_4Kdocumentary_8000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視演唱會4K - (粤語/廣東話|普通話/國語 - 簡[殘]體字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_4Kconcert_8000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視電影 1080p (普通話/國語 - 簡[殘]體字)
+http://live.gslb.letv.com/gslb?stream_id=lb_1080P_1080p3m&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視香港電影 720p (普通話/國語)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hkmovie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 - 喜劇 (普通話/國語 - 簡[殘]體字)
+http://live.gslb.letv.com/gslb?stream_id=lb_comedy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 - 動作 (普通話/國語 - 簡[殘]體字)
+http://live.gslb.letv.com/gslb?stream_id=lb_dzdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視港產電影 (粤語/廣東話 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_lsgcp_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視粤語電影 (粤語/廣東話 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_yylbpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 (多種語言 - 繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_adult2_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視電影 - 港產動作 (粤語/廣東話 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkactionmovies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 - 港產喜劇 (粤語/廣東話 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkcomedies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 - 港產鬼怪 (粤語/廣東話 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_hkghost_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 - 港產古裝 (粤語/廣東話 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_HKperiodMovies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 - 港產愛情 (粤語/廣東話 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkromance_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視 - Thrill 驚慄電影 (多種語言 - 繁中字)
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Thrill_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視日劇 (繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_JPdrama_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視韓劇 (繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_KRdrama_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視卡通 (繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_cartoon2_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視親子 (繁/簡[殘]中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_parenting_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視紀錄片 (多種語言 - 繁/簡[殘]中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_lsjlp_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視港產電影 (粤語/廣東話 - 繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_lsgcp_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視LIVE生活
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_lslivesh_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視劇集
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_lssljjt_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視音樂
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_lsyymvt_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視不詳 - (粤/廣東話)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_yylbpd_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視不詳
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia15_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影 - 動作 (多種語言 - 繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_movies2_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視電影 - 愛情 (多種語言 - 繁中字)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_movies3_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視 - 世界影城電影頻道
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_CinemaWorld_300&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視 - G.E.M. 鄧紫棋
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_dengziqi_3000&tag=live&ext=m3u8&ext=m3u8&platid=10&splatid=1009
+#EXTINF:-1, 樂視 - 台劇社區
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_TWdrama_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視 - 好萊塢 (黑白片)
+http://live.gslb.letv.com/gslb?stream_id=lb_hlw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視 - 樂迷
+http://live.gslb.letv.com/gslb?stream_id=lb_lm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視綜合台
+http://live.gslb.letv.com/gslb?stream_id=lb_zonghe_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視 - 世界影城電影頻道
+http://live.gslb.letv.com/gslb?stream_id=pay_cinema_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視喜劇
+http://live.gslb.letv.com/gslb?stream_id=lb_comedy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視跟播
+http://live.gslb.letv.com/gslb?stream_id=lb_genbo_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電視劇1
+http://live.gslb.letv.com/gslb?stream_id=lb_tv_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1       
+#EXTINF:-1, 樂視電視劇2
+http://live.gslb.letv.com/gslb?stream_id=lb_yst_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視自制劇
+http://live.gslb.letv.com/gslb?stream_id=lb_make_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影片花
+http://live.gslb.letv.com/gslb?stream_id=lb_trailer_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視好萊塢 (黑白片)
+http://live.gslb.letv.com/gslb?stream_id=lb_hlw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視港產電影
+http://live.gslb.letv.com/gslb?stream_id=lb_lsgcp_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視動作電影
+http://live.gslb.letv.com/gslb?stream_id=lb_dzdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視香港電影
+http://live.gslb.letv.com/gslb?stream_id=lb_hkmovie_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視粤語電影
+http://live.gslb.letv.com/gslb?stream_id=lb_yylbpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視華語電影
+http://live.gslb.letv.com/gslb?stream_id=lb_hydy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視720P電影
+http://live.gslb.letv.com/gslb?stream_id=lb_movie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視1080P電影
+http://live.gslb.letv.com/gslb?stream_id=lb_1080P_1080p3m&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視4K電影
+http://live.gslb.letv.com/gslb?stream_id=lb_4k&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影
+http://live.gslb.letv.com/gslb?stream_id=lb_lsdyt_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視日韓電影
+http://live.gslb.letv.com/gslb?stream_id=lb_rhdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視華語電影 (主)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hydy_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視華語電影 (備)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hydy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視電影
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_movie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視香港電影
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hkmovie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視娛樂頻道
+http://live.gslb.letv.com/gslb?stream_id=lb_yule_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視音樂SNH48
+http://live.gslb.letv.com/gslb?stream_id=lb_SNH48_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視音樂AKB48
+http://live.gslb.letv.com/gslb?stream_id=lb_AKB48_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視音樂SM TOWN
+http://live.gslb.letv.com/gslb?stream_id=lb_SMTOWN_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_music_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1        
+#EXTINF:-1, 樂視音樂節
+http://live.gslb.letv.com/gslb?stream_id=lb_yinyuejie_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視演唱會
+http://live.gslb.letv.com/gslb?stream_id=lb_concert_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視LIVE生活
+http://live.gslb.letv.com/gslb?stream_id=lb_livemusic_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視音樂MV
+http://live.gslb.letv.com/gslb?stream_id=lb_mv_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_lsyymvt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視粤語音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_yyyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視日本流行
+http://live.gslb.letv.com/gslb?stream_id=lb_rblx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視日本搖滾
+http://live.gslb.letv.com/gslb?stream_id=lb_us_rbyg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視中國/大陸民謠
+http://live.gslb.letv.com/gslb?stream_id=lb_zgmy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視歐美流行
+http://live.gslb.letv.com/gslb?stream_id=lb_omlx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視歐美搖滾
+http://live.gslb.letv.com/gslb?stream_id=lb_omyg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視古典音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_classical_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1       
+#EXTINF:-1, 樂視電子音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_dzyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視嘻哈音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_xhyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視中國/大陸男歌手
+http://live.gslb.letv.com/gslb?stream_id=lb_dalunangeshou_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視中國/大陸女歌手
+http://live.gslb.letv.com/gslb?stream_id=lb_dalunvgeshou_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視古典音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_classical_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視格莱美音樂獎
+http://live.gslb.letv.com/gslb?stream_id=lb_glmyyj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視時裝周
+http://live.gslb.letv.com/gslb?stream_id=lb_shizhuang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1       
+#EXTINF:-1, 樂視上海時裝周
+http://live.gslb.letv.com/gslb?stream_id=lb_StyleTV_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視綜合
+http://live.gslb.letv.com/gslb?stream_id=lb_zonghe_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視綜藝1
+http://live.gslb.letv.com/gslb?stream_id=lb_ent_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視歡樂季
+http://live.gslb.letv.com/gslb?stream_id=lb_2015xjdws_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視芭莎TV
+http://live.gslb.letv.com/gslb?stream_id=lb_bsTV_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視戲曲
+http://live.gslb.letv.com/gslb?stream_id=lb_xiqu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視動物世界
+http://live.gslb.letv.com/gslb?stream_id=lb_dwsj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視美克家居ART
+http://live.gslb.letv.com/gslb?stream_id=lb_mkmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視開心麻花
+http://live.gslb.letv.com/gslb?stream_id=lb_kxmh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視搞笑微電影
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia10_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視防詐騙影片
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia15_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視紀錄片
+http://live.gslb.letv.com/gslb?stream_id=lb_jilu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1       
+#EXTINF:-1, 樂視紀錄唐卡
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_tangka_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視紀錄歷史
+http://live.gslb.letv.com/gslb?stream_id=lb_jlls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視紀錄文化遗產
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_whyc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視人物传记
+http://live.gslb.letv.com/gslb?stream_id=lb_rwzj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視人文地理
+http://live.gslb.letv.com/gslb?stream_id=lb_rwdl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視狂野自然
+http://live.gslb.letv.com/gslb?stream_id=lb_kyzr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視軍事瞭望
+http://live.gslb.letv.com/gslb?stream_id=lb_jslw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視美食
+http://live.gslb.letv.com/gslb?stream_id=lb_meishi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視公益
+http://live.gslb.letv.com/gslb?stream_id=lb_gongyi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視檔案
+http://live.gslb.letv.com/gslb?stream_id=lb_dangan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視盛典
+http://live.gslb.letv.com/gslb?stream_id=lb_lssd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=cs1&expect=1
+#EXTINF:-1, 樂視風尚
+http://live.gslb.letv.com/gslb?stream_id=lb_fengshang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1 
+#EXTINF:-1, 樂視籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_lanqiu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視新疆廣匯籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_xjgh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視廣廈籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_gslqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視金強籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_jqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視福建潯興籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_fjxx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視佛山龍獅籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_fsls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視江蘇肯帝亞籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_jskdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視(藥都)瑜伽籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_yujia_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視體育體育+
+http://live.gslb.letv.com/gslb?stream_id=lb_tyzx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視體育1
+http://live.gslb.letv.com/gslb?stream_id=lb_sports_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視體育2
+http://live.gslb.letv.com/gslb?stream_id=lb_tiyu2_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視河南足球
+http://live.gslb.letv.com/gslb?stream_id=lb_hnzq_800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視國安足球
+http://live.gslb.letv.com/gslb?stream_id=lb_guoan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視拳擊帕奎奧
+http://live.gslb.letv.com/gslb?stream_id=lb_pka_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視歐冠
+http://live.gslb.letv.com/gslb?stream_id=lb_ouguan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視汽車
+http://live.gslb.letv.com/gslb?stream_id=lb_qiche_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視橄欖球
+http://live.gslb.letv.com/gslb?stream_id=lb_glq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視F1賽車
+http://live.gslb.letv.com/gslb?stream_id=lb_F1_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視羽毛球
+http://live.gslb.letv.com/gslb?stream_id=lb_ymq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視高爾夫大滿貫
+http://live.gslb.letv.com/gslb?stream_id=lb_gefdmg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視高爾夫歐巡賽
+http://live.gslb.letv.com/gslb?stream_id=lb_gefoxs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視高爾夫美巡賽
+http://live.gslb.letv.com/gslb?stream_id=lb_gefmxs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視體育粵語
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_lsh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視廣場舞
+http://live.gslb.letv.com/gslb?stream_id=lb_gcw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+
+#EXTINF:-1, 樂視成人3 (節目只適合成年觀眾，敬請留意)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_adult3_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視成人2 (節目只適合成年觀眾，敬請留意)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_adult2_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視成人1 (節目只適合成年觀眾，敬請留意)
+http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hk_adult1_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+
+#EXTINF:-1, 樂視|花樣姐姐
+http://live.gslb.letv.com/gslb?stream_id=lb_hyjj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|蒙面歌王
+http://live.gslb.letv.com/gslb?stream_id=lb_mmgw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|我是歌手
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_imsinger_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=C1S&expect=1
+#EXTINF:-1, 樂視|最強大腦
+http://live.gslb.letv.com/gslb?stream_id=lb_zqdn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|香港電影
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_hkmovie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=C1S&expect=1
+#EXTINF:-1, 樂視|成龍電影
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_cl_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=C1S&expect=1
+#EXTINF:-1, 樂視|電影HD
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_movie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=C1S&expect=1
+#EXTINF:-1, 樂視|演唱會
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_concert_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=C1S&expect=1
+#EXTINF:-1, 樂視|娛樂頻道
+http://live.gslb.letv.com/gslb?stream_id=lb_yule_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|日本流行
+http://live.gslb.letv.com/gslb?stream_id=lb_rblx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|中國搖滾
+http://live.gslb.letv.com/gslb?stream_id=lb_zgyg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|中國民謠
+http://live.gslb.letv.com/gslb?stream_id=lb_zgmy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|歐美流行
+http://live.gslb.letv.com/gslb?stream_id=lb_omlx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|古典音樂
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_classical_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=C1S&expect=1        
+#EXTINF:-1, 樂視|神話劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_shjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|脫單劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_tdjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|催淚劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_cljc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|勵志劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_lzjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|軍旅劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_jljc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|宮鬥劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_gdjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|女性劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_nxjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|都市劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_dsjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|年代劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_ndjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1, 樂視|兄弟劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_xdjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1     
+#EXTINF:-1, 樂視|姐妹淘劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_jmtjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
