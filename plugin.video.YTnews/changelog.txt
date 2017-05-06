@@ -1,4 +1,7 @@
-﻿2017apr14
+﻿2017may05
+1.1.4 - Add MingPaoCanada, Delete Stock Channels
+
+2017apr14
 1.1.3 - HKNEWS change back old channel id, add 香港新聞最前線,我係香港人,港股策略王
 
 2017apr02
