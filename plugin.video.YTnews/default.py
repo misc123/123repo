@@ -87,8 +87,8 @@ def main_list(params):
 		
     plugintools.add_item( 
         #action="", 
-        title="明報加東版新聞",
-        url="plugin://plugin.video.youtube/user/MingPaoToronto"+ID5+"/",
+        title="明報新聞(多倫多,加國及其他)",
+        url="plugin://plugin.video.youtube/channel/UCuaiQk1XUTc3q4HaL36E_Dg/playlists"+ID5+"/",
         thumbnail="https://yt3.ggpht.com/-b-yT1RhZyc4/AAAAAAAAAAI/AAAAAAAAAAA/GQUASiScP9w/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
         folder=True )
 
