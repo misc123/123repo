@@ -103,9 +103,9 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="加拿大国家电视台直播",
-        url="plugin://plugin.video.youtube/play/?video_id=N-gfeGqCTMo"+ID7+"/",
+        url="plugin://plugin.video.youtube/search/?q=%e5%8a%a0%e6%8b%bf%e5%a4%a7%e5%9b%bd%e5%ae%b6%e7%94%b5%e8%a7%86%e5%8f%b0%e7%9b%b4%e6%92%ad"+ID7+"/",
         thumbnail="https://yt3.ggpht.com/-Ru956J9DZ1k/AAAAAAAAAAI/AAAAAAAAAAA/BdQAXLJd_-0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        folder=False )
+        folder=True )
 				
     plugintools.add_item( 
         #action="", 
@@ -131,9 +131,9 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="東網直播",
-        url="plugin://plugin.video.youtube/play/?video_id=lNQXTS1AbxU"+ID11+"/",
+        url="plugin://plugin.video.youtube/search/?q=%e6%9d%b1%e7%b6%b2%e7%9b%b4%e6%92%ad"+ID11+"/",
         thumbnail="https://yt3.ggpht.com/-FEbIRZGjkRc/AAAAAAAAAAI/AAAAAAAAAAA/YqZKSXZbYwU/s88-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        folder=False )
+        folder=True )
 		
     plugintools.add_item( 
         #action="", 
