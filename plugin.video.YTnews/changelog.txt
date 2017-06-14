@@ -1,4 +1,7 @@
-﻿2017may05
+﻿2017jun13
+1.1.5 - Add 香港新聞報道, 奇妙電視新聞及其他, 加拿大国家电视台直播
+
+2017may05
 1.1.4 - Add MingPaoCanada, Delete Stock Channels
 1.1.4.1-Change MingPaoCanada Link to Playlist
 

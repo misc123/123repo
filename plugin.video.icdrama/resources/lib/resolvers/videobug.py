@@ -44,6 +44,9 @@ class Videobug(UrlResolver, GA):
             if re.match(r'https?://redirector.googlevideo.com/', url):
                 # Kodi can play directly, skip further resolve
                 vidurl = url
+            elif 'blogspot.com' in url:
+                # Kodi can play blogspot links directly
+                vidurl = url
             else:
                 vidurl = urlresolver.resolve(url)
 

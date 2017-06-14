@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.YTnews"
-	name="新聞 及 週刊"
-	version="1.1.5"
+<addon id="plugin.video.YTinstantpot"
+	name="Instant Pot"
+	version="1.0.0"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -12,8 +12,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT News</summary>
-    <description lang="en">YT News</description>
+    <summary lang="en">YT Instant Pot</summary>
+    <description lang="en">YT Instant Pot</description>
     <platform>all</platform>
     <forum></forum>
     <website></website>

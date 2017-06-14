@@ -156,6 +156,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.YTinstantpot"
+	name="Instant Pot"
+	version="1.0.0"
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">YT Instant Pot</summary>
+    <description lang="en">YT Instant Pot</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.YTinvest"
 	name="股票及投資"
 	version="1.1.0"
@@ -263,7 +284,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="新聞 及 週刊"
-	version="1.1.4.1"
+	version="1.1.5"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -337,7 +358,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.icdrama" version="1.2.6" name="Icdrama" provider-name="cthlo">
+<addon id="plugin.video.icdrama" version="1.2.6.1" name="Icdrama" provider-name="cthlo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.html5lib" version="0.999.0"/>
