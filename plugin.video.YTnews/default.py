@@ -17,7 +17,7 @@ addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
 
-ID1 = ""
+
 ID2 = ""
 ID3 = ""
 ID4 = ""
@@ -57,13 +57,6 @@ def run():
 # Main menu
 def main_list(params):
     plugintools.log("YTnews.main_list "+repr(params))
-
-    plugintools.add_item( 
-        #action="", 
-        title="香港新聞台",
-        url="plugin://plugin.video.youtube/channel/UC1Sh4WkuFCRM4hyTjaJLrHw"+ID1+"/",
-        thumbnail="https://yt3.ggpht.com/-pEN6mbclUZQ/AAAAAAAAAAI/AAAAAAAAAAA/lURW_nVyLxE/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        folder=True )
 
     plugintools.add_item( 
         #action="", 

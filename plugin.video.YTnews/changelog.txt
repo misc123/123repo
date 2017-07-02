@@ -1,4 +1,7 @@
 ﻿2017jun13
+1.1.5.2 Delete 香港新聞台
+
+2017jun13
 1.1.5 - Add 香港新聞報道, 奇妙電視新聞及其他, 加拿大国家电视台直播
 1.1.5.1-Change Live Streams(加拿大国家电视台直播,東網直播)to "Search" for smooth streaming.
 
