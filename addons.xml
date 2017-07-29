@@ -1,4 +1,25 @@
 ﻿<addons>
+
+<addon id="plugin.video.icdrama" version="1.4.0" name="Icdrama" provider-name="aznhusband, General-Meow, cthlo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.urlresolver" version="3.0.34"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Dramas, shows, and movies from icdrama.se</summary>
+    <description>Provides contents from icdrama.se. "Happy wife, happy life"</description>
+    <disclaimer>This addon is not affiliated with icdrama.se</disclaimer>
+    <platform>all</platform>
+    <license>MIT License</license>
+  </extension>
+</addon>
+
 <addon
   id="plugin.video.azdrama"
   version="1.0.29"
@@ -20,66 +41,6 @@
     <summary>azdrama.net</summary>
     <description>Watch azdrama.net (Chinese)Videos</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.canada.on.demand.pg" name="Canada On Demand*" version="1.0.0" provider-name="andre, podgod">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup"	version="3.2.0"/>
-    <import addon="script.module.simplejson" version="2.0.10"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Video On Demand From Canada</summary>
-    <description>Stream content from Canadian providers including CBC, Global, DIY, HGTV, Slice and more! This is a stripped down version of the original addon by andre which is now dead, all credit to him. Basically, I just removed everything that wasn't working.</description>
-    <platform>all</platform>
-    <disclaimer></disclaimer>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.drama24h"
-  version="1.0.9"
-  name="drama24h"
-  provider-name="Dknight">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0" optional="true" />
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-		<import addon="script.module.urlresolver" version="2.1.2"/>
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>drama24h</summary>
-    <description>Watch drama24h (Chinese)Videos</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.NewApps"
-	name="新增頻道（測試中）"
-	version="1.1.0"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">New Apps</summary>
-    <description lang="en">New Apps</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
   </extension>
 </addon>
 
@@ -152,6 +113,27 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.YTnews"
+	name="新聞 及 週刊"
+	version="1.1.5.2"
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">YT News</summary>
+    <description lang="en">YT News</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.YTfood"
 	name="飲食頻道"
 	version="1.1.1"
@@ -215,27 +197,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTkaraoke"
-	name="Karaoke"
-	version="1.1.1"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT Karaoke</summary>
-    <description lang="en">YT Karaoke</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.YTkids"
 	name="Kid's Zone"
 	version="1.1.1"
@@ -257,9 +218,9 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTmovies"
-	name="中 粵 韓 日 電影/劇集"
-	version="1.1.1"
+<addon id="plugin.video.YTkaraoke"
+	name="Karaoke"
+	version="1.1.2"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -270,11 +231,32 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT Movies</summary>
-    <description lang="en">YT Movies</description>
+    <summary lang="en">YT Karaoke</summary>
+    <description lang="en">YT Karaoke</description>
     <platform>all</platform>
     <forum></forum>
     <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.YouMusic" name="YouMusic" version="1.0.3" provider-name="spanky">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Watch All The Best Music Videos On YouTube. </summary>
+    <description lang="en">Watch All The Best Music Videos From YouTube With YouMusic
+        [COLOR blue]Brought to you In association with TVADDONS.ag[/COLOR]
+	</description>
+    <disclaimer lang="en">[COLOR blue]Please Visit TvAddons.ag For Support[/COLOR]
+        [COLOR red]forums.tvaddons.ag/tvaddons-ag-addon-repository/46413-youmusic[/COLOR]
+    </disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -293,27 +275,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Learn to play Music</summary>
     <description lang="en">Learn to play Music</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.YTnews"
-	name="新聞 及 週刊"
-	version="1.1.5.2"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT News</summary>
-    <description lang="en">YT News</description>
     <platform>all</platform>
     <forum></forum>
     <website></website>
@@ -341,6 +302,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.YTmovies"
+	name="中 粵 韓 日 電影/劇集"
+	version="1.1.1"
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">YT Movies</summary>
+    <description lang="en">YT Movies</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.YTtwlive"
 	name="台灣新聞直播"
 	version="1.1.0"
@@ -362,6 +344,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.NewApps"
+	name="新增頻道（測試中）"
+	version="1.1.0"
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">New Apps</summary>
+    <description lang="en">New Apps</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="repository.misc123" name="misc123" version="1.0.1" provider-name="misc123">
 	<extension point="xbmc.addon.repository" name="misc123">
 		<info compressed="false">http://raw.github.com/misc123/123repo/master/addons.xml</info>
@@ -375,24 +377,17 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.icdrama" version="1.4.0" name="Icdrama" provider-name="aznhusband, General-Meow, cthlo">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.html5lib" version="0.999.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-    <import addon="script.module.urlresolver" version="3.0.34"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Dramas, shows, and movies from icdrama.se</summary>
-    <description>Provides contents from icdrama.se. "Happy wife, happy life"</description>
-    <disclaimer>This addon is not affiliated with icdrama.se</disclaimer>
-    <platform>all</platform>
-    <license>MIT License</license>
-  </extension>
+<addon id="repository.aznhusband-kodi-repo" version="1.0.1" name="aznhusband-kodi-repo" provider-name="aznhusband">
+	<extension point="xbmc.addon.repository" name="aznhusband-kodi-repo">
+    <info compressed="false">https://aznhusband.github.io/addons.xml</info>
+    <checksum>https://aznhusband.github.io/addons.xml.md5</checksum>
+    <datadir zip="true">https://aznhusband.github.io/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">aznhusband-kodi-repo</summary>
+		<description lang="en">aznhusband-kodi-repo</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.adult"
@@ -412,6 +407,46 @@
     <platform>all</platform>
     <forum></forum>
     <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.canada.on.demand.pg" name="Canada On Demand*" version="1.0.0" provider-name="andre, podgod">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup"	version="3.2.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Video On Demand From Canada</summary>
+    <description>Stream content from Canadian providers including CBC, Global, DIY, HGTV, Slice and more! This is a stripped down version of the original addon by andre which is now dead, all credit to him. Basically, I just removed everything that wasn't working.</description>
+    <platform>all</platform>
+    <disclaimer></disclaimer>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.drama24h"
+  version="1.0.9"
+  name="drama24h"
+  provider-name="Dknight">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.beautifulsoup" version="3.0.8"/>
+		<import addon="script.module.urlresolver" version="2.1.2"/>
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>drama24h</summary>
+    <description>Watch drama24h (Chinese)Videos</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
