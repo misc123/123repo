@@ -25,7 +25,6 @@ ID5 = ""
 ID6 = ""
 ID7 = ""
 
-
 # Entry point
 def run():
     plugintools.log("YTmusic.run")
@@ -65,7 +64,7 @@ def main_list(params):
         url="plugin://plugin.video.youtube/user/danthecomposer"+ID3+"/",
         thumbnail="https://yt3.ggpht.com/-bS0JaBhU1rw/AAAAAAAAAAI/AAAAAAAAAAA/Y26mWoChix0/s100-c-k-no-rj-c0xffffff/photo.jpg",
         folder=True )
-        
+
     plugintools.add_item( 
         #action="", 
         title="JustinGuitar Songs",
@@ -82,11 +81,11 @@ def main_list(params):
         
     plugintools.add_item( 
         #action="", 
-        title="MyTwangyGuitar",
-        url="plugin://plugin.video.youtube/user/MyTwangyGuitar"+ID6+"/",
-        thumbnail="https://yt3.ggpht.com/-gyXJb8NWsdM/AAAAAAAAAAI/AAAAAAAAAAA/xxpA9QXdgAM/s100-c-k-no-rj-c0xffffff/photo.jpg",
+        title="Six String Country",
+        url="plugin://plugin.video.youtube/user/sixstringcountryhd"+ID6+"/",
+        thumbnail="https://yt3.ggpht.com/-ymMAMBus87Y/AAAAAAAAAAI/AAAAAAAAAAA/dkTJASKtEp4/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
         folder=True )
-		
+      
     plugintools.add_item( 
         #action="", 
         title="The Ukulele Teacher",
