@@ -1,4 +1,0 @@
-﻿2017may07
-1.0.0 
-- Intial release
-
