@@ -1,0 +1,13 @@
+<favourites>
+    <favourite name="香港新聞報道" thumb="https://yt3.ggpht.com/-WqTXqXBRXhM/AAAAAAAAAAI/AAAAAAAAAAA/vhm-oxD2VXY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg">ActivateWindow(10025,&quot;plugin://plugin.video.youtube/channel/UCYtW5p3KSA4vpWC7Q1flPrw/&quot;,return)</favourite>
+    <favourite name="六點半新聞報道">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=versions&amp;url=http%3a%2f%2ficdrama.se%2fhk-show%2f1247-news-at-6-30%2f&quot;,return)</favourite>
+    <favourite name="奇妙电视77台">PlayMedia(&quot;plugin://plugin.video.playlistLoader/?logos=&amp;cache=0&amp;name=%E5%A5%87%E5%A6%99%E7%94%B5%E8%A7%8677%E5%8F%B0&amp;url=http%3A%2F%2Fmedia.fantv.hk%2Fm3u8%2Farchive%2Fchannel2.m3u8&amp;iconimage=&amp;mode=3&quot;)</favourite>
+    <favourite name="TVB-娱乐新闻台">PlayMedia(&quot;plugin://plugin.video.playlistLoader/?logos=&amp;cache=0&amp;name=TVB-%E5%A8%B1%E4%B9%90%E6%96%B0%E9%97%BB%E5%8F%B0&amp;url=http%3A%2F%2Ftoken.tvb.com%2Fstream%2Flive%2Fenews%2Fhls%2Fmobilehd_enews.smil&amp;iconimage=&amp;mode=3&quot;)</favourite>
+    <favourite name="CP24 HD">PlayMedia(&quot;plugin://plugin.video.playlistLoader/?logos=&amp;cache=0&amp;name=CP24+HD.&amp;url=plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Fstreamtype%3DTSDOWNLOADER%26amp%3Bamp%3Burl%3Dhttp%3A%2F%2Fp4.giffy.be%3A8080%2Flive%2FMichelle%2FMichelle%2F20725.ts&amp;iconimage=&amp;mode=3&quot;)</favourite>
+    <favourite name="OMNI 1 HD">PlayMedia(&quot;plugin://plugin.video.playlistLoader/?logos=&amp;cache=0&amp;name=OMNI+1+HD&amp;url=plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Fstreamtype%3DTSDOWNLOADER%26amp%3Bamp%3Burl%3Dhttp%3A%2F%2Fp4.giffy.be%3A8080%2Flive%2FMichelle%2FMichelle%2F22585.ts&amp;iconimage=&amp;mode=3&quot;)</favourite>
+    <favourite name="OMNI 2 HD">PlayMedia(&quot;plugin://plugin.video.playlistLoader/?logos=&amp;cache=0&amp;name=OMNI+2+HD&amp;url=plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Fstreamtype%3DTSDOWNLOADER%26amp%3Bamp%3Burl%3Dhttp%3A%2F%2Fp4.giffy.be%3A8080%2Flive%2FMichelle%2FMichelle%2F22586.ts&amp;iconimage=&amp;mode=3&quot;)</favourite>
+    <favourite name="牛牛直播" thumb="androidapp://sources/apps/org.nndsy.player.free.release.png">StartAndroidActivity(&quot;org.nndsy.player.free.release&quot;)</favourite>
+    <favourite name="友窝YWP" thumb="androidapp://sources/apps/com.yowar.ywp.png">StartAndroidActivity(&quot;com.yowar.ywp&quot;)</favourite>
+    <favourite name="飲食頻道" thumb="special://home/bg/icons/cooking.png">ActivateWindow(10025,&quot;plugin://plugin.video.YTfood/&quot;,return)</favourite>
+    <favourite name="香港劇集">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=shows&amp;url=http%3a%2f%2ficdrama.se%2fhk-drama%2f&quot;,return)</favourite>
+</favourites>
