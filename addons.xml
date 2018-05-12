@@ -20,7 +20,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.supershortcuts" name="超級捷徑" version="1.0.0" provider-name="Super Favourites 1.0.18">
+<addon id="plugin.video.supershortcuts" name="超級捷徑" version="1.0.0" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -30,7 +30,7 @@
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
+    <summary lang="en">Modded from Super Favourites 1.0.18</summary>
     <description lang="en"></description>
     <platform>all</platform>
     <language>en</language>
