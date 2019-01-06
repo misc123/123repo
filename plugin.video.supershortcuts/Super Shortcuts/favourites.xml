@@ -1,0 +1,20 @@
+<favourites>
+    <favourite name="超级直播" thumb="androidapp://sources/apps/com.hd.zhibo.png">StartAndroidActivity(&quot;com.hd.zhibo&quot;)</favourite>
+    <favourite name="香港開電視(直播)">PlayMedia(&quot;plugin://plugin.video.playlistLoader/?logos=&amp;cache=0&amp;name=%E5%A5%87%E5%A6%99%E7%94%B5%E8%A7%8677%E5%8F%B0&amp;url=http%3A%2F%2Fmedia.fantv.hk%2Fm3u8%2Farchive%2Fchannel2.m3u8&amp;iconimage=&amp;mode=3&quot;)</favourite>
+    <favourite name="ViuTV 香港新聞" thumb="https://yt3.ggpht.com/a-/AN66SAyXWuZ6kjsCurxT6eb98Y65XxyFUp_u7KABzQ=s288-mo-c-c0xffffffff-rj-k-no">ActivateWindow(10025,&quot;plugin://plugin.video.youtube/channel/UCKWpmh1v-kNrAjDkwsqqGyg/&quot;,return)</favourite>
+    <favourite name="TVB-六點半新聞">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=versions&amp;url=http%3a%2f%2ficdrama.se%2fhk-show%2f1247-news-at-6-30%2f&quot;,return)</favourite>
+    <favourite name="香港劇集">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=shows&amp;url=http%3a%2f%2ficdrama.se%2fhk-drama%2f&quot;,return)</favourite>
+    <favourite name="Icdrama" thumb="special://home/addons/plugin.video.icdrama/icon.png">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/&quot;,return)</favourite>
+    <favourite name="vChannel" thumb="androidapp://sources/apps/rssplayer.too.fiwi.rssplayer.png">StartAndroidActivity(&quot;rssplayer.too.fiwi.rssplayer&quot;)</favourite>
+    <favourite name="Viki韓劇" thumb="special://home/addons/plugin.video.viki/icon.png">ActivateWindow(10025,&quot;plugin://plugin.video.viki/&quot;)</favourite>
+    <favourite name="VIKI®" thumb="special://home/addons/plugin.video.vikir/resources/icon.png">RunAddon(plugin.video.vikir)</favourite>
+    <favourite name="飲食頻道" thumb="special://home/bg/icons/cooking.png">ActivateWindow(10025,&quot;plugin://plugin.video.YTfood/&quot;,return)</favourite>
+    <favourite name="今日影视" thumb="androidapp://sources/apps/com.cwb.yingshi.png">StartAndroidActivity(&quot;com.cwb.yingshi&quot;)</favourite>
+    <favourite name="西片及劇集(Neptune Rising)" thumb="special://home/addons/plugin.video.neptune\icon.png">RunAddon(plugin.video.neptune)</favourite>
+    <favourite name="YouTube" thumb="special://home/addons/plugin.video.youtube/icon.png">ActivateWindow(10025,&quot;plugin://plugin.video.youtube/&quot;)</favourite>
+    <favourite name="流行經典50年">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=versions&amp;url=http%3a%2f%2ficdrama.to%2fhk-show%2f2996-cantopop-at-50%2f&quot;,return)</favourite>
+    <favourite name="財經透視">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=versions&amp;url=http%3a%2f%2ficdrama.to%2fhk-show%2f1242-financial-magazine%2f&quot;,return)</favourite>
+    <favourite name="新聞透視">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=versions&amp;url=http%3a%2f%2ficdrama.to%2fhk-show%2f1238-news-magazine%2f&quot;,return)</favourite>
+    <favourite name="改革開放四十年">ActivateWindow(10025,&quot;plugin://plugin.video.icdrama/?action=versions&amp;url=http%3a%2f%2ficdrama.to%2fhk-show%2f4212-40-years-of-reforms%2f&quot;,return)</favourite>
+    <favourite name="tinyCam FREE" thumb="androidapp://sources/apps/com.alexvas.dvr.png">StartAndroidActivity(&quot;com.alexvas.dvr&quot;)</favourite>
+</favourites>

@@ -1,0 +1,47 @@
+20190105
+1.0.33
+Delete non-working links
+
+20181209
+1.0.32
+Update Favourites
+
+20181128
+1.0.30 1.0.31
+Update More Icdrama Channels
+
+20181006
+1.0.29
+Update ViuTV
+
+20180826
+1.0.28
+Add more links
+
+20180717
+1.0.27
+Update links
+
+2018jun05
+1.0.24
+Re-arranging orders
+
+2018may19
+1.0.23
+Delete Canadian ip links
+
+2018may16
+1.0.22
+Update Canadian ip links
+
+2018may13
+1.0.21 1.0.2
+Fix errors
+
+2018may13
+1.0.11 1.0.1
+- Add more shortcuts
+
+2018may11
+1.0.0 
+- Intial release
