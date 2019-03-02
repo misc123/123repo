@@ -1,6 +1,6 @@
 ﻿<addons>
 
-<addon id="plugin.video.supershortcuts" name="超級捷徑" version="1.0.40" provider-name="spoyser,misc123">
+<addon id="plugin.video.supershortcuts" name="超級捷徑" version="1.0.41" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -19,6 +19,27 @@
     <website></website>
     <source></source>
     <email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.YTdogtraining"
+	name="練狗術師"
+	version="1.0.0"
+	provider-name="misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">YT Dog Training</summary>
+    <description lang="en">YT Dog Training</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
   </extension>
 </addon>
 
