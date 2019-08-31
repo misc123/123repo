@@ -1,6 +1,6 @@
 ﻿<addons>
 
-<addon id="plugin.video.supershortcuts" name="超級捷徑" version="1.0.46" provider-name="spoyser,misc123">
+<addon id="plugin.video.supershortcuts" name="超級捷徑" version="1.0.47" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -68,7 +68,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="新聞 及 週刊"
-	version="1.1.6.6"
+	version="1.1.6.7"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
