@@ -1,25 +1,28 @@
 ﻿<addons>
 
-<addon id="plugin.video.hklive"
-version="1.0.2"
-name="香港直播"
-provider-name="primaeval modded by misc123">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">香港直播</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
+<addon id="plugin.video.hklive" name="香港直播" version="1.0.2" provider-name="spoyser,misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.metahandler" version="2.7.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Modded from Super Favourites 1.0.18</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
 </addon>
 
-<addon id="plugin.video.supershortcuts" name="超級捷徑" version="1.0.60" provider-name="spoyser,misc123">
+<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.61" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -42,8 +45,8 @@ provider-name="primaeval modded by misc123">
 </addon>
 
 <addon id="plugin.video.YTnews"
-	name="新聞 及 週刊"
-	version="1.1.6.19"
+	name="時政熱點"
+	version="1.1.6.20"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
