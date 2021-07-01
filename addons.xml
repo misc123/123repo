@@ -22,7 +22,23 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.63" provider-name="spoyser,misc123">
+<addon id="plugin.video.iptv" name="電視直播" version="1.0.0" provider-name="Avigdor, Misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Modded from playlistLoader</summary>
+    <summary lang="he">電視直播</summary>
+    <description lang="en">電視直播</description>
+    <description lang="he">電視直播</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.64" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -46,7 +62,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="時政熱點"
-	version="1.1.6.20"
+	version="1.1.6.21"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
