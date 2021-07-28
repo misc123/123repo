@@ -62,7 +62,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="時政熱點"
-	version="1.1.6.21"
+	version="1.1.6.22"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -78,6 +78,33 @@
     <platform>all</platform>
     <forum></forum>
     <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cbcolympics"
+       name="CBC Olympics"
+       version="2.0.0~beta1"
+       provider-name="fourpointsix">
+  <requires>
+    <!-- Enable this for Kodi 16.x through 18.x -->
+    <import addon="xbmc.python" version="2.24.0"/>
+    <!-- Enable this for Kodi 19.x and newer -->
+    <!--<import addon="xbmc.python" version="3.0.0"/>-->
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CBC Olympics</summary>
+    <description lang="en">Tokyo 2020 Summer Olympics streams from the CBC. Streams are geo-blocked so you must be on a Canadian IP for this to work.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <news>v2.0.0 (2021-07-24)
+- Re-written for Tokyo 2020</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
 
