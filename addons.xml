@@ -1,5 +1,26 @@
 ﻿<addons>
 
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.36" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+    </extension>
+</addon>
+
 <addon id="plugin.video.hklive" name="香港直播" version="1.0.2" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -38,7 +59,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.67" provider-name="spoyser,misc123">
+<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.68" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -62,7 +83,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="時政熱點"
-	version="1.1.6.24"
+	version="1.1.6.25"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
