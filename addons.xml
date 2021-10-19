@@ -1,44 +1,6 @@
 ﻿<addons>
 
-<addon id="plugin.video.hklive" name="香港直播" version="1.0.2" provider-name="spoyser,misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.metahandler" version="2.7.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Modded from Super Favourites 1.0.18</summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
-    <website></website>
-    <source></source>
-    <email></email>
-  </extension>
-</addon>
-
-<addon id="plugin.video.iptv" name="電視直播" version="1.0.0" provider-name="Avigdor, Misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Modded from playlistLoader</summary>
-    <summary lang="he">電視直播</summary>
-    <description lang="en">電視直播</description>
-    <description lang="he">電視直播</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.68" provider-name="spoyser,misc123">
+<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.69" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -62,7 +24,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="時政熱點"
-	version="1.1.6.25"
+	version="1.1.6.26"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -81,30 +43,19 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cbcolympics"
-       name="CBC Olympics"
-       version="2.0.0~beta1"
-       provider-name="fourpointsix">
+<addon id="plugin.video.iptv" name="電視直播" version="1.0.0" provider-name="Avigdor, Misc123">
   <requires>
-    <!-- Enable this for Kodi 16.x through 18.x -->
-    <import addon="xbmc.python" version="2.24.0"/>
-    <!-- Enable this for Kodi 19.x and newer -->
-    <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">CBC Olympics</summary>
-    <description lang="en">Tokyo 2020 Summer Olympics streams from the CBC. Streams are geo-blocked so you must be on a Canadian IP for this to work.</description>
+    <summary lang="en">Modded from playlistLoader</summary>
+    <summary lang="he">電視直播</summary>
+    <description lang="en">電視直播</description>
+    <description lang="he">電視直播</description>
     <platform>all</platform>
-    <language>en</language>
-    <news>v2.0.0 (2021-07-24)
-- Re-written for Tokyo 2020</news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
   </extension>
 </addon>
 
@@ -123,71 +74,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">YT Food</summary>
     <description lang="en">YT Food</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.playlistLoader" name="Playlist Loader" version="1.2.0" provider-name="Avigdor">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="repository.xbmc-avigdork" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Playlist Loader</summary>
-    <summary lang="he">Playlist Loader</summary>
-    <description lang="en">Playlist Loader</description>
-    <description lang="he">Playlist Loader</description>
-    <platform>all</platform>
-	<news>
-1.2.0
-- (fix) support strings.xml (old Kodi versions).
-1.1.9
-- Added an option to show groups in channels lists.
-	</news>
-  </extension>
-</addon>
-
-<addon id="plugin.video.YTinstantpot"
-	name="Instant Pot"
-	version="1.0.0"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT Instant Pot</summary>
-    <description lang="en">YT Instant Pot</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.YTinvest"
-	name="股票及投資"
-	version="1.1.0"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT Invest</summary>
-    <description lang="en">YT Invest</description>
     <platform>all</platform>
     <forum></forum>
     <website></website>
@@ -257,27 +143,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTsports"
-	name="YT Sports"
-	version="1.1.0"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT Sports</summary>
-    <description lang="en">YT Sports</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.YTmovies"
 	name="中 粵 韓 日 電影/劇集"
 	version="1.1.2"
@@ -320,26 +185,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.NewApps"
-	name="新增頻道（測試中）"
-	version="1.1.0"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">New Apps</summary>
-    <description lang="en">New Apps</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.adult"
 	name="18+"
 	version="1.0.2"
@@ -354,27 +199,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Adult Channels</summary>
     <description lang="en">Adult Channels</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.YTdogtraining"
-	name="練狗術師"
-	version="1.0.13"
-	provider-name="misc123">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">YT Dog Training</summary>
-    <description lang="en">YT Dog Training</description>
     <platform>all</platform>
     <forum></forum>
     <website></website>
