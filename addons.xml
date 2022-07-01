@@ -20,7 +20,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.79" provider-name="spoyser,misc123">
+<addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.80" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" version="2.7.0" />
@@ -44,7 +44,7 @@
 
 <addon id="plugin.video.YTnews"
 	name="時政熱點"
-	version="1.1.6.32"
+	version="1.1.6.33"
 	provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -63,7 +63,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.iptv" name="電視直播" version="1.0.2" provider-name="Avigdor and Nux007, Misc123">
+<addon id="plugin.video.iptv" name="電視直播" version="1.0.3" provider-name="Avigdor and Nux007, Misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.9.1"/>
