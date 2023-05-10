@@ -1,24 +1,5 @@
 ﻿<addons>
 
-<addon id="plugin.video.ytvideo" name="新聞 時事 飲食 娛樂" version="1.0.1" provider-name="J1 modded by misc123">
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en"></description>
-        <disclaimer lang="en"></disclaimer>
-		<platform>all</platform>
-		<news></news>
-		<genre>All</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.icdrama" version="2.2.0.1" name="Icdrama" provider-name="aznhusband, dumbo0001, s_h, boleanly, mugol, General-Meow, cthlo, soraxas">
   <requires>
     <import addon="script.module.html5lib" version="0.999.0"/>
