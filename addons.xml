@@ -1,6 +1,6 @@
 ﻿<addons>
 
-<addon id="plugin.video.ytvideo" name="新聞 時事 飲食 娛樂" version="1.0.0" provider-name="J1 modded by misc123">
+<addon id="plugin.video.ytvideo" name="新聞 時事 飲食 娛樂" version="1.0.1" provider-name="J1 modded by misc123">
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
