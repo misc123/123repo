@@ -1,25 +1,5 @@
 ﻿<addons>
 
-<addon id="plugin.video.icdrama" version="2.2.0.1" name="Icdrama" provider-name="aznhusband, dumbo0001, s_h, boleanly, mugol, General-Meow, cthlo, soraxas">
-  <requires>
-    <import addon="script.module.html5lib" version="0.999.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-    <import addon="script.module.resolveurl" version="5.1.0"/>
-    <import addon="script.module.future" version="0.17.1" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Dramas, shows, and movies from icdrama.se</summary>
-    <description>Provides contents from icdrama.se. "Happy wife, happy life"</description>
-    <disclaimer>This addon is not affiliated with icdrama.se</disclaimer>
-    <platform>all</platform>
-    <license>MIT License</license>
-  </extension>
-</addon>
-
 <addon id="plugin.video.supershortcuts" name="新聞 及 娛樂" version="1.0.84" provider-name="spoyser,misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -42,10 +22,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTnews"
-	name="時政熱點"
-	version="1.1.6.37"
-	provider-name="misc123">
+<addon id="plugin.video.YTnews" name="時政熱點" version="1.1.6.37" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -76,14 +53,11 @@
     <summary lang="he">Modded from playlistLoader 1.3.0</summary>
     <description lang="en">電視直播</description>
     <platform>all</platform>
-	<news></news>
+    <news></news>
   </extension>
 </addon>
 
-<addon id="plugin.video.YTfood"
-	name="飲食頻道"
-	version="1.1.13"
-	provider-name="misc123">
+<addon id="plugin.video.YTfood" name="飲食頻道" version="1.1.13" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -101,10 +75,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTkids"
-	name="Kid's Zone"
-	version="1.1.1"
-	provider-name="misc123">
+<addon id="plugin.video.YTkids" name="Kid's Zone" version="1.1.1" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -122,10 +93,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTkaraoke"
-	name="Karaoke"
-	version="1.1.4"
-	provider-name="misc123">
+<addon id="plugin.video.YTkaraoke" name="Karaoke" version="1.1.4" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -143,10 +111,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTmusic"
-	name="Learn Music"
-	version="1.1.2"
-	provider-name="misc123">
+<addon id="plugin.video.YTmusic" name="Learn Music" version="1.1.2" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -164,10 +129,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTmovies"
-	name="中 粵 韓 日 電影/劇集"
-	version="1.1.6"
-	provider-name="misc123">
+<addon id="plugin.video.YTmovies" name="中 粵 韓 日 電影/劇集" version="1.1.6" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -185,10 +147,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.YTtwlive"
-	name="台灣新聞直播"
-	version="1.1.1"
-	provider-name="misc123">
+<addon id="plugin.video.YTtwlive" name="台灣新聞直播" version="1.1.1" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -206,10 +165,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.adult"
-	name="18+"
-	version="1.0.2"
-	provider-name="misc123">
+<addon id="plugin.video.adult" name="18+" version="1.0.2" provider-name="misc123">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -226,23 +182,20 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.korean"
-version="1.0.3"
-name="韓國電影/劇集"
-provider-name="primaeval modded by misc123">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Korean Drama and Movies</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
+<addon id="plugin.video.korean" version="1.0.3" name="韓國電影/劇集" provider-name="primaeval modded by misc123">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.requests" version="2.9.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Korean Drama and Movies</summary>
+    <description lang="en"></description>
+    <disclaimer lang="en">.</disclaimer>
+  </extension>
 </addon>
 
 <addon id="plugin.video.jeopardy" name="Jeopardy" version="1.0.1" provider-name="spoyser,misc123">
@@ -268,16 +221,15 @@ provider-name="primaeval modded by misc123">
 </addon>
 
 <addon id="repository.misc123" name="misc123" version="1.0.1" provider-name="misc123">
-	<extension point="xbmc.addon.repository" name="misc123">
-		<info compressed="false">http://raw.github.com/misc123/123repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/misc123/123repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/misc123/123repo/master/Plugin</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>misc123</summary>
-		<description>misc123 repository</description>
-		<platform>all</platform>
-	</extension>
+  <extension point="xbmc.addon.repository" name="misc123">
+    <info compressed="false">http://raw.github.com/misc123/123repo/master/addons.xml</info>
+    <checksum>http://raw.github.com/misc123/123repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">http://raw.github.com/misc123/123repo/master/Plugin</datadir>
+  <extension point="xbmc.addon.metadata">
+    <summary>misc123</summary>
+    <description>misc123 repository</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 </addons>
